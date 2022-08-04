@@ -1,3 +1,2 @@
 # tutorials-cpp
-C++ tutorial programs.
-Repository of beginner C++ tutorial programs.
+C++ tutorial programs to test my knowledge of the C++ Programming language.
