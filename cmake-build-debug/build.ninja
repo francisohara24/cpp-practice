@@ -61,6 +61,12 @@ build CMakeFiles/tutorials_cpp.dir/c-style-concat.cpp.obj: CXX_COMPILER__tutoria
   OBJECT_DIR = CMakeFiles\tutorials_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\tutorials_cpp.dir
 
+build CMakeFiles/tutorials_cpp.dir/string-streams.cpp.obj: CXX_COMPILER__tutorials_cpp_Debug C$:/Users/franc/OneDrive/PROJECTS/SWE$ Projects/CLionProjects/tutorials-cpp/string-streams.cpp || cmake_object_order_depends_target_tutorials_cpp
+  DEP_FILE = CMakeFiles\tutorials_cpp.dir\string-streams.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\tutorials_cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\tutorials_cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target tutorials_cpp
@@ -69,7 +75,7 @@ build CMakeFiles/tutorials_cpp.dir/c-style-concat.cpp.obj: CXX_COMPILER__tutoria
 #############################################
 # Link the executable tutorials_cpp.exe
 
-build tutorials_cpp.exe: CXX_EXECUTABLE_LINKER__tutorials_cpp_Debug CMakeFiles/tutorials_cpp.dir/main.cpp.obj CMakeFiles/tutorials_cpp.dir/c-style-concat.cpp.obj
+build tutorials_cpp.exe: CXX_EXECUTABLE_LINKER__tutorials_cpp_Debug CMakeFiles/tutorials_cpp.dir/main.cpp.obj CMakeFiles/tutorials_cpp.dir/c-style-concat.cpp.obj CMakeFiles/tutorials_cpp.dir/string-streams.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\tutorials_cpp.dir
