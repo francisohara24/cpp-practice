@@ -1,2 +1,2 @@
 # intro-to-cpp
-All code I write to learn and practice C++.
+Small programs I wrote while learning C++
