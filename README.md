@@ -1,2 +1,2 @@
 # intro-to-cpp
-Small programs I wrote while learning C++
+Programs I wrote while learning C++
