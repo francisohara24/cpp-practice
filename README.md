@@ -1,2 +1,2 @@
-# cpp-tutorials
-Programs I wrote while learning C++
+# cpp-practice
+Programs I wrote to practice C++.
