@@ -1,3 +1,0 @@
-C:/Users/Francis O'Hara Aidoo/CLionProjects/cpp-practice/cmake-build-debug/CMakeFiles/cpp_practice.dir
-C:/Users/Francis O'Hara Aidoo/CLionProjects/cpp-practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Francis O'Hara Aidoo/CLionProjects/cpp-practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
