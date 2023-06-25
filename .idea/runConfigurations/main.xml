@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="main" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp-practice" TARGET_NAME="main.cpp" CONFIG_NAME="main">
-    <option name="sourceFile" value="C:\Users\Francis O'Hara Aidoo\CLionProjects\cpp-practice\main.cpp" />
-    <method v="2">
-      <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-    </method>
-  </configuration>
-</component>
