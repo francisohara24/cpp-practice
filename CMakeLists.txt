@@ -4,4 +4,4 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 23)
 
 
-add_executable(main.cpp hackerrank/1-cpp-hello-world.cpp)
+add_executable(main.cpp hackerrank/1_cpp_hello_world.cpp)
