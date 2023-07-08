@@ -1,6 +1,7 @@
 //
 // Created by Francis O'Hara Aidoo on 6/28/2023.
 //
+// link: https://www.hackerrank.com/challenges/cpp-input-and-output/problem
 #include <cmath>
 #include <iostream>
 
