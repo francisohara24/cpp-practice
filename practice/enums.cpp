@@ -12,4 +12,5 @@ int main() {
     Color color1 = orange;
 
     std::cout << yellow;
+    return 0;
 }
