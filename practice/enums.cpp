@@ -1,6 +1,7 @@
 //
 // Created by Francis O'Hara Aidoo on 7/15/2023.
 //
+// Task: learn syntax for C++ enums
 #include <iostream>
 
 int main() {
