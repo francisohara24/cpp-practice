@@ -6,17 +6,17 @@
 
 #include <iostream>
 
-int main(){
-    int arrInitialized[4]  = {};  // initialize array of integers
+int main() {
+    int arrInitialized[4] = {};  // initialize array of integers
     int arrUninitialized[4];  // uinitialized array of integers
 
-    std::cout<<"Initialized:  ";
-    for (int i = 0; i < sizeof(arrInitialized)/sizeof(arrInitialized[0]); i ++)
-        std::cout<< arrInitialized[i]<<" ";
+    std::cout << "Initialized:  ";
+    for (int elem: arrInitialized)
+        std::cout << elem << " ";
 
-    std::cout<<std::endl<<"Uninitialized:  ";
-    for (int i = 0; i < sizeof(arrUninitialized)/sizeof(arrUninitialized[0]); i ++)
-        std::cout<< arrUninitialized[i]<< " ";
+    std::cout << std::endl << "Uninitialized:  ";
+    for (int elem: arrUninitialized)
+        std::cout << elem << " ";
     return 0;
 }
 
