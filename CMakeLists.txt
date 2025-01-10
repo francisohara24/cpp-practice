@@ -9,4 +9,5 @@ add_executable(main.cpp hackerrank/1_cpp_hello_world.cpp main.cpp practice/c_sty
         hackerrank/4_cpp_basic_data_types.cpp
         hackerrank/5_c_tutorial_for_loop.cpp
         hackerrank/6_c_tutorial_functions.cpp
-        hackerrank/7_c_tutorial_pointer.cpp)
+        hackerrank/7_c_tutorial_pointer.cpp
+        hackerrank/8_arrays_introduction.cpp)
