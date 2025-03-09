@@ -1,3 +1,10 @@
+/**
+ * File Name:   lex.yy.c
+ * Description: C output of `test.yy` flex program. A simple lexical analyzer program that replaces occurrences of the
+				text '42'.
+ * Author:      Francis O'Hara
+ * Date:        3/4/25
+ */
 
 #line 2 "lex.yy.c"
 
