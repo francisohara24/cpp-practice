@@ -49,8 +49,8 @@ int main(int arg, char *argv[]) {
     structure2->integer = (int) 0xA1B2C3D4;//E5F6A7B8;
 
     // create direct pointer to struct object
-    unsigned char * ptr3 = (unsigned char *) &structure2;
-    printf("\nDirect Pointer to Struct: %p\n", ptr3);
+    unsigned char * ptr3 = (unsigned char *) structure2;
+    printf("\nDirect Pointer to Struct: %p\n", ptr3);//ptr3);
 
     // create pointer to first member of struct
     unsigned char * ptr4 = (unsigned char *) &structure2->character1;
@@ -70,10 +70,8 @@ int main(int arg, char *argv[]) {
 }
 /*
     Conclusions:
-    1. When a struct is declared on the stack, the address of the struct is the same as the
-       address of the first member of the struct. However, when a struct is declared on the heap, the address of
-       the struct is not the same as the address of the first member of the struct.
-    2. Heap memory addresses allocated using malloc are allocated in increments of 8 or 16 bytes (system dependent) regardless"
+    1. Struct pointers always point to the first member of the Struct regardless of whether the Struct was declared on the stack or on the heap.
+    2. Heap memory addresses allocated using malloc are allocated in increments of 8 or 16 bytes (system dependent) regardless
        of the type of variable the addresses are allocated for.
        For example, if memory is allocated for a char followed by an int using malloc, the memory allocated for the char
        will have an address 8 or 16 bytes from the address of the memory allocated for the int.
