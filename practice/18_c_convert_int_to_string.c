@@ -6,6 +6,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * @brief Returns string representation of an integer given a pointer to the integer.
@@ -14,27 +15,49 @@
  * @return a pointer to the first character in the string representation of the integer.
  */
 char *int_to_string(void *x) {
+    // TODO: account for case where number is 0
+    // TODO: in CS333 cstk2: account for trailing comma of last item on stack.
     int number = *((int *) x);
     int num_digits = 0;
-    while (number != 0) {
-        number = number / 10;
+
+    if (number == 0) {
         num_digits ++;
     }
+    else if (number < 0) {
+        number *= -1;
+    }
 
-    char result[num_digits];
-    char digit_to_char[10] = "0123456789";
+    while (number != 0) {
+        number = number / 10;
+        num_digits++;
+    }
+
+    char *result = (char *) malloc(num_digits + 2);
+    char *result_ptr = result;
     number = *((int *) x);
+
+    if (number < 0) {
+        *result = '-';
+        number *= -1;
+        result_ptr++;
+    }
+
+    char digit_to_char[10] = "0123456789";
 
     for (int i = 0; i < num_digits; i++) {
         int digit = number % 10;
-        result[num_digits - 1 - i] = digit_to_char[digit];
+        result_ptr[num_digits - 1 - i] = digit_to_char[digit];
         number = number / 10;
     }
     return result;
 }
 
 int main() {
-    int a = 789560;
-    printf(int_to_string(&a));
+    int a = 78956;
+    int b = 0;
+    int c = -400000910;
+    printf("%s\n", int_to_string(&a));
+    printf("%s\n", int_to_string(&b));
+    printf("%s\n", int_to_string(&c));
     return 0;
 }
