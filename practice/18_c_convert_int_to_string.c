@@ -15,8 +15,6 @@
  * @return a pointer to the first character in the string representation of the integer.
  */
 char *int_to_string(void *x) {
-    // TODO: account for case where number is 0
-    // TODO: in CS333 cstk2: account for trailing comma of last item on stack.
     int number = *((int *) x);
     int num_digits = 0;
 
